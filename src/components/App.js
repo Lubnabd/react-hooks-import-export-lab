@@ -1,23 +1,19 @@
 import React from "react";
+import Home from "./Home";
+import NavBar from "./NavBar";
+import About from "./About";
 
-function NavBar() {
-  return (
-    <nav>
-      <a href="#home">Home</a>
-      <a href= "#About">About</a>
-    </nav>
-  );
-}
 
-function Home() {
+
+/*function Home() {
   return (
     <div id="home">
       <h1>Liza is a Web Developer from New York</h1>
     </div>
   );
 }
-
-function About() {
+*/
+/*function About() {
   return(
     <div id="about">
       <h2>About Me</h2>
@@ -26,7 +22,7 @@ function About() {
     </div>
   )
 };
-
+*/
 function App() {
   return (
     <div>
